@@ -1,17 +1,28 @@
 body {
-  text-align: center;
   font-family: Georgia, 'Times New Roman', Times, serif;
-  margin: 0, 100px, 0, 100px;
+  letter-spacing: .2rem;
+  width: 650px;
+  margin: 0 auto;
 }
 
-h1 {
-  background-color: antiquewhite;
+h1,
+h2 {
+  background-color: honeydew;
+  text-align: center;
+  color: darkcyan;
 }
 
 ul {
-  font-size: larger;}
+  font-size: larger;
+    /* use text-indent?*/
+}
 
 img {
   height: auto;
   width: 200px;
+  box-align: center;
+}
+
+p ol {
+  letter-spacing: normal;
 }
