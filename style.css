@@ -14,7 +14,13 @@ h2 {
 
 ul {
   font-size: larger;
-    /* use text-indent?*/
+  border: 2px solid rebeccapurple;
+  padding: .5em;
+  list-style: none;
+}
+
+ul.flex {
+  display: flex;
 }
 
 img {
@@ -25,4 +31,12 @@ img {
 
 p ol {
   letter-spacing: normal;
+}
+
+.block{
+background-color:rgb(229, 231, 235);
+margin: 1px;
+padding: .5em;
+display: block;
+text-align: center;
 }
