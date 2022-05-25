@@ -1,7 +1,8 @@
 body {
   font-family: Georgia, 'Times New Roman', Times, serif;
   letter-spacing: .2rem;
-  width: 650px;
+  max-width: 650px;
+  /*Use max-width so when used on mobiles, or when the width is smaller than the assigned one, it will adjust, if not a scroll bar will appear*/
   margin: 0 auto;
 }
 
@@ -16,7 +17,8 @@ ul {
   font-size: larger;
   border: 2px solid rebeccapurple;
   padding: .5em;
-  list-style: none;
+list-style-position: inside;
+/* list-style: none; para que no aparezcan los cuadrados de la lista */
 }
 
 ul.flex {
