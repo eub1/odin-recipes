@@ -16,7 +16,7 @@ h2 {
 ul {
   font-size: larger;
   border: 2px solid rebeccapurple;
-  padding: .5em;
+  padding:20px 20px;
 list-style-position: inside;
 /* list-style: none; para que no aparezcan los cuadrados de la lista */
 }
@@ -24,11 +24,15 @@ list-style-position: inside;
 ul.flex {
   display: flex;
 }
+li {
+  margin-bottom: 2%;
+}
 
 img {
   height: auto;
-  width: 200px;
-  box-align: center;
+  max-width: 250px;
+  margin: 0 auto;
+  display: block;
 }
 
 p ol {
@@ -41,4 +45,7 @@ margin: 1px;
 padding: .5em;
 display: block;
 text-align: center;
+}
+div {
+  margin: 25px 0;
 }
